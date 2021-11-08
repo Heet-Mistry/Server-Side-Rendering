@@ -1,5 +1,7 @@
+/* eslint-disable import/named */
 import React, { useState, StrictMode, lazy, Suspense } from "react";
 import { render } from "react-dom";
+// eslint-disable-next-line import/namespace
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import ThemeContext from "./ThemeContext";
